@@ -2,8 +2,8 @@
 # Based on a work at https://github.com/docker/docker.
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM ubuntu
-MAINTAINER Kevin Delfour <kevin@delfour.eu>
+FROM cloud9/ws-nodejs
+MAINTAINER Jérémy Young <darkterra01@gmail.com>
 
 # Install Supervisor.
 RUN \
